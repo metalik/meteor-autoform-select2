@@ -169,11 +169,11 @@ Template.afSelect2.rendered = function () {
   });
 };
 
-Template.afSelect2.destroyed = function () {
-  if (this.view && this.view._domrange) {
-    this.$('select').select2('destroy');
-  }
-};
+// Template.afSelect2.destroyed = function () {
+//   if (this.view && this.view._domrange) {
+//     this.$('select').select2('destroy');
+//   }
+// };
 
 /*
  *  BOOTSTRAP THEME
